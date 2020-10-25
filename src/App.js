@@ -43,7 +43,7 @@ function App() {
        
 
     <div>
-      {(logedin) &&
+      {!(logedin) &&
         <div id="links">
         <Link className="link btn btn-primary"  to="/signup">Signup</Link>
         <Link className="link btn btn-primary" to="/login">Login</Link>
